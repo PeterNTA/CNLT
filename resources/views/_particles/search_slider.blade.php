@@ -11,13 +11,13 @@
     </div>
     </div>
   </div>
-  <div class="hidden-xs" id="count">
+  <!-- <div class="hidden-xs" id="count">
     <ul>
       <li><span class="number">{{getcong('total_restaurant')}}</span> Restaurant</li>
       <li><span class="number">{{getcong('total_people_served')}}</span> People Served</li>
       <li><span class="number">{{getcong('total_registered_users')}}</span> Registered Users</li>
     </ul>
-  </div>
+  </div> -->
   </section>
     <div class="flex-banner">
       <ul class="slides">

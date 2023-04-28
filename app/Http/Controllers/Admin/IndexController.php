@@ -27,7 +27,7 @@ class IndexController extends MainAdminController
     public function postLogin(Request $request)
     {
     	
-    //echo bcrypt('123456');
+    // echo bcrypt('123456');
     //exit;	
     	
       $this->validate($request, [
