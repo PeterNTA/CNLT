@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="" class="col-sm-3 control-label">Sort Description</label>
+                    <label for="" class="col-sm-3 control-label">Short Description</label>
                       <div class="col-sm-9">
                         <input type="text" name="description" value="{{ isset($menu->description) ? $menu->description : null }}" class="form-control">
                     </div>

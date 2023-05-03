@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="" class="col-sm-3 control-label">Restaurant Name</label>
+                    <label for="" class="col-sm-3 control-label">Restaurant Name</label>   
                       <div class="col-sm-9">
                         <input type="text" name="restaurant_name" value="{{ isset($restaurant->restaurant_name) ? $restaurant->restaurant_name : null }}" class="form-control">
                     </div>

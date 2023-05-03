@@ -74,7 +74,7 @@
             </li>
             
             <li class="col-sm-8">
-              <button type="submit" value="submit" class="btn font-montserrat" id="btn_submit" onClick="proceed();">Submit</button>
+              <button type="submit" value="submit" class="btn font-montserrat" id="btn_submit" onClick="proceed();" style="background:#647e86fa; border:#647e86fa">Submit</button>
             </li>
           </ul>
         {!! Form::close() !!}

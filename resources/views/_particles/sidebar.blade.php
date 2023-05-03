@@ -29,9 +29,9 @@
         </tbody>
       </table>
       <hr>
-          <a class="btn_full" href="{{URL::to('order_details')}}">Order now</a>  
+          <a class="btn_full" href="{{URL::to('order_details')}} " style="background:#647e86fa; border: white">Order now</a>  
           @else
-            <a class="btn_full" href="#0">Empty Cart</a>  
+            <a class="btn_full" href="#0" style="background:#647e86fa;  border: white">Empty Cart</a>  
           @endif
     </div>  
 
@@ -52,9 +52,9 @@
           </div>  
 
            
-      <div id="help" class="box_style_2"> 
+      <!-- <div id="help" class="box_style_2"> 
       <i class="fa fa-life-bouy"></i>
         <h4>{{getcong_widgets('need_help_title')}}</h4>
         <a href="tel://{{getcong_widgets('need_help_phone')}}" class="phone">{{getcong_widgets('need_help_phone')}}</a> <small>{{getcong_widgets('need_help_time')}}</small> 
-      </div>
+      </div> -->
 </div>

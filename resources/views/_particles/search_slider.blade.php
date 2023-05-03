@@ -6,7 +6,7 @@
       <div class="container-4">
         {!! Form::open(array('url' => 'restaurants/search','class'=>'','id'=>'search','role'=>'form')) !!} 
           <input type="search" placeholder="Restaurant name or address..." name="search_keyword" id="search">
-          <button class="icon" type="submit"><i class="fa fa-search"></i></button>
+          <button class="icon" type="submit" style="background:#fff ; color:black" ><i class="fa fa-search"></i></button>
         {!! Form::close() !!} 
     </div>
     </div>

@@ -53,7 +53,7 @@
             </div>  
             <div class="col-md-3 col-sm-12">
               <div class="go_to">
-              <div> <a class="btn_1" href="{{URL::to('restaurants/menu/'.$restaurant->restaurant_slug)}}">View Menu</a> </div>
+              <div > <a class="btn_1" href="{{URL::to('restaurants/menu/'.$restaurant->restaurant_slug)}}" style="background:#647e86fa; border:#647e86fa">View Menu</a> </div>
               </div>
             </div>
             </div>

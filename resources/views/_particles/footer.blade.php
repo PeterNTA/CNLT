@@ -7,13 +7,13 @@
           <p>{!!getcong_widgets('footer_widget1_desc')!!}</p>
           <ul class="social_icons">            
            
-            <li class="facebook"><a href="{{getcong_widgets('social_facebook')}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="{{getcong_widgets('social_twitter')}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="{{getcong_widgets('social_google')}}" target="_blank"><i class="fa fa-google"></i></a></li>
-            <li><a href="{{getcong_widgets('social_instagram')}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="{{getcong_widgets('social_pinterest')}}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-            <li><a href="{{getcong_widgets('social_vimeo')}}" target="_blank"><i class="fa fa-vimeo"></i></a></li>
-            <li><a href="{{getcong_widgets('social_youtube')}}" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+            <li class="facebook" style="background:#647e86fa"><a href="{{getcong_widgets('social_facebook')}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <!-- <li><a href="{{getcong_widgets('social_twitter')}}" target="_blank"><i class="fa fa-twitter"></i></a></li> -->
+            <li style="background:#647e86fa"><a href="{{getcong_widgets('social_google')}}" target="_blank"><i class="fa fa-google"></i></a></li>
+            <li style="background:#647e86fa"><a href="{{getcong_widgets('social_instagram')}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <!-- <li><a href="{{getcong_widgets('social_pinterest')}}" target="_blank"><i class="fa fa-pinterest"></i></a></li> -->
+            <!-- <li><a href="{{getcong_widgets('social_vimeo')}}" target="_blank"><i class="fa fa-vimeo"></i></a></li> -->
+            <!-- <li><a href="{{getcong_widgets('social_youtube')}}" target="_blank"><i class="fa fa-youtube-play"></i></a></li> -->
             
           </ul>
         </li>

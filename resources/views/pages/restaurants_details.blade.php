@@ -44,7 +44,7 @@
       <div class="row"> 
         <div class="col-md-9 col-sm-7 col-xs-12">         
       <div class="box_style_2">
-              <h2 class="inner">Description</h2>
+              <h2 class="inner" style="background:#647e86fa">Description</h2>
               <span class="detail_con_text">{!!$restaurant->restaurant_description!!}</span>
               <div id="summary_review">
                 <div id="general_rating"> {{$total_review}} Reviews

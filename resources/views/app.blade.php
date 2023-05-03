@@ -34,7 +34,7 @@
 	 	
 	 
 	 
-  <div class="rights">
+  <!-- <div class="rights">
     <div class="container">
       <p class="font-montserrat">
       		@if(getcong('site_copyright'))
@@ -48,7 +48,7 @@
 			@endif
 	  </p>
     </div>
-  </div>
+  </div> -->
 
 <script src="{{ URL::asset('site_assets/js/jquery-1.11.0.min.js') }}"></script>
 <script src="{{ URL::asset('site_assets/js/bootstrap.min.js') }}"></script>

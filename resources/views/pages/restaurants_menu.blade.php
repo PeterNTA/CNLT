@@ -41,7 +41,7 @@
       <div class="row"> 
         <div class="col-md-9 col-sm-7 col-xs-12">         
       <div id="main_menu" class="box_style_2">
-        <h2 class="inner">Menu List</h2>
+        <h2 class="inner" style="background-color :#647e86fa">Menu List</h2>
          @foreach(\App\Categories::where('restaurant_id',$restaurant->id)->orderBy('category_name')->get() as $n=>$cat)
         <h3 id="{{$cat->category_name}}" class="nomargin_top">{{$cat->category_name}}</h3>
         <table class="table table-striped cart-list">
